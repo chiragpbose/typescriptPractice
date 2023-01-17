@@ -1,0 +1,23 @@
+Typescript is created run on top of js to address shortcomings of js
+Typescript = javascript + typechecking
+
+.ts files => .js files : this is called transpilation 
+
+rootDir: change path if required
+
+outDir: tells where the .js file is located---> change to ".dist"
+
+noImplicitReturns, noUnusedLocal, noUnusedParameters
+noEmitOnError: uncomment this to ensure that the transpilation wont happen in case of any error
+
+sourceMap--- needs more deepdive
+
+tuple: we can specify that it'll contain 2 elements, each a different type.typescript does not complain heere if we push a 3rd variable of an unspecified type!!
+
+enum: look at ./src/index.ts
+
+typescript functions: look at ./src/index.ts
+
+objects: look at ./src/index.ts
+typealias:  look at ./src/index.ts
+uniontype:  look at ./src/index.ts
